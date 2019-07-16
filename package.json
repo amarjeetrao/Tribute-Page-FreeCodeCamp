@@ -1,0 +1,30 @@
+{
+  "name": "tribute-page-fcc",
+  "version": "0.1.0",
+  "description": "Freecodecamp responsive web design course porject one - Tribute Page",
+  "main": "index.html",
+  "scripts": {
+    "build": "postcss src/css/tailwindcss.css --output src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarjeetrao/Tribute-Page-FreeCodeCamp.git"
+  },
+  "keywords": [
+    "Tribute page",
+    "FreeCodeCamp"
+  ],
+  "author": "Amarjeet Rao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amarjeetrao/Tribute-Page-FreeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/amarjeetrao/Tribute-Page-FreeCodeCamp#readme",
+  "devDependencies": {
+    "postcss":"^7.0.17",
+    "postcss-cli":"^6.1.3",
+    "cssnano": "^4.1.10",
+    "tailwindcss": "^1.0.5"
+  },
+  "dependencies": {}
+}
