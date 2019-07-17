@@ -4,7 +4,8 @@
   "description": "Freecodecamp responsive web design course porject one - Tribute Page",
   "main": "index.html",
   "scripts": {
-    "build": "postcss src/css/tailwindcss.css --output src/css/style.css --watch"
+    "build": "postcss src/css/tailwindcss.css --output src/css/style.css",
+    "watch": "postcss src/css/tailwindcss.css --output src/css/style.css --watch"
   },
   "repository": {
     "type": "git",

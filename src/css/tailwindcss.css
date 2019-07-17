@@ -1,3 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "../../node_modules/tailwindcss/base.css";
+
+/* custom base styles
+   ========================================================================== */
+
+@import "../../node_modules/tailwindcss/components.css";
+
+/* custom components styles
+   ========================================================================== */
+
+@import "../../node_modules/tailwindcss/utilities.css";
+
+/* custom utilities styles
+   ========================================================================== */
