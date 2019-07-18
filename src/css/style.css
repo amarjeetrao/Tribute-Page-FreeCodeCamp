@@ -599,7 +599,8 @@ video {
   height: auto;
 }
 
-/*custom base styles*/
+/* custom base styles
+   ========================================================================== */
 
 .container {
   width: 100%;
@@ -629,7 +630,8 @@ video {
   }
 }
 
-/*custom components styles*/
+/* custom components styles
+   ========================================================================== */
 
 .appearance-none {
   -webkit-appearance: none;
@@ -3193,6 +3195,10 @@ video {
   border-width: 8px;
 }
 
+.border-12 {
+  border-width: 12px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -3259,6 +3265,22 @@ video {
 
 .border-l-8 {
   border-left-width: 8px;
+}
+
+.border-t-12 {
+  border-top-width: 12px;
+}
+
+.border-r-12 {
+  border-right-width: 12px;
+}
+
+.border-b-12 {
+  border-bottom-width: 12px;
+}
+
+.border-l-12 {
+  border-left-width: 12px;
 }
 
 .border-t {
@@ -3390,7 +3412,8 @@ video {
 }
 
 .self-auto {
-  align-self: auto;
+  -ms-grid-row-align: auto;
+      align-self: auto;
 }
 
 .self-start {
@@ -3402,11 +3425,13 @@ video {
 }
 
 .self-center {
-  align-self: center;
+  -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .self-stretch {
-  align-self: stretch;
+  -ms-grid-row-align: stretch;
+      align-self: stretch;
 }
 
 .justify-start {
@@ -3569,6 +3594,14 @@ video {
 
 .font-mono {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-body {
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial;
+}
+
+.font-heading {
+  font-family: Abril Fatface, Cambria, Times New Roman, Times, serif;
 }
 
 .font-hairline {
@@ -7555,7 +7588,8 @@ video {
   z-index: auto;
 }
 
-/*custom utilities styles*/
+/* custom utilities styles
+   ========================================================================== */
 
 @media (min-width: 640px) {
   .sm\:appearance-none {
@@ -10120,6 +10154,10 @@ video {
     border-width: 8px;
   }
 
+  .sm\:border-12 {
+    border-width: 12px;
+  }
+
   .sm\:border {
     border-width: 1px;
   }
@@ -10186,6 +10224,22 @@ video {
 
   .sm\:border-l-8 {
     border-left-width: 8px;
+  }
+
+  .sm\:border-t-12 {
+    border-top-width: 12px;
+  }
+
+  .sm\:border-r-12 {
+    border-right-width: 12px;
+  }
+
+  .sm\:border-b-12 {
+    border-bottom-width: 12px;
+  }
+
+  .sm\:border-l-12 {
+    border-left-width: 12px;
   }
 
   .sm\:border-t {
@@ -10317,7 +10371,8 @@ video {
   }
 
   .sm\:self-auto {
-    align-self: auto;
+    -ms-grid-row-align: auto;
+        align-self: auto;
   }
 
   .sm\:self-start {
@@ -10329,11 +10384,13 @@ video {
   }
 
   .sm\:self-center {
-    align-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
   }
 
   .sm\:self-stretch {
-    align-self: stretch;
+    -ms-grid-row-align: stretch;
+        align-self: stretch;
   }
 
   .sm\:justify-start {
@@ -10496,6 +10553,14 @@ video {
 
   .sm\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-body {
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial;
+  }
+
+  .sm\:font-heading {
+    font-family: Abril Fatface, Cambria, Times New Roman, Times, serif;
   }
 
   .sm\:font-hairline {
@@ -17046,6 +17111,10 @@ video {
     border-width: 8px;
   }
 
+  .md\:border-12 {
+    border-width: 12px;
+  }
+
   .md\:border {
     border-width: 1px;
   }
@@ -17112,6 +17181,22 @@ video {
 
   .md\:border-l-8 {
     border-left-width: 8px;
+  }
+
+  .md\:border-t-12 {
+    border-top-width: 12px;
+  }
+
+  .md\:border-r-12 {
+    border-right-width: 12px;
+  }
+
+  .md\:border-b-12 {
+    border-bottom-width: 12px;
+  }
+
+  .md\:border-l-12 {
+    border-left-width: 12px;
   }
 
   .md\:border-t {
@@ -17243,7 +17328,8 @@ video {
   }
 
   .md\:self-auto {
-    align-self: auto;
+    -ms-grid-row-align: auto;
+        align-self: auto;
   }
 
   .md\:self-start {
@@ -17255,11 +17341,13 @@ video {
   }
 
   .md\:self-center {
-    align-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
   }
 
   .md\:self-stretch {
-    align-self: stretch;
+    -ms-grid-row-align: stretch;
+        align-self: stretch;
   }
 
   .md\:justify-start {
@@ -17422,6 +17510,14 @@ video {
 
   .md\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-body {
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial;
+  }
+
+  .md\:font-heading {
+    font-family: Abril Fatface, Cambria, Times New Roman, Times, serif;
   }
 
   .md\:font-hairline {
@@ -23972,6 +24068,10 @@ video {
     border-width: 8px;
   }
 
+  .lg\:border-12 {
+    border-width: 12px;
+  }
+
   .lg\:border {
     border-width: 1px;
   }
@@ -24038,6 +24138,22 @@ video {
 
   .lg\:border-l-8 {
     border-left-width: 8px;
+  }
+
+  .lg\:border-t-12 {
+    border-top-width: 12px;
+  }
+
+  .lg\:border-r-12 {
+    border-right-width: 12px;
+  }
+
+  .lg\:border-b-12 {
+    border-bottom-width: 12px;
+  }
+
+  .lg\:border-l-12 {
+    border-left-width: 12px;
   }
 
   .lg\:border-t {
@@ -24169,7 +24285,8 @@ video {
   }
 
   .lg\:self-auto {
-    align-self: auto;
+    -ms-grid-row-align: auto;
+        align-self: auto;
   }
 
   .lg\:self-start {
@@ -24181,11 +24298,13 @@ video {
   }
 
   .lg\:self-center {
-    align-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
   }
 
   .lg\:self-stretch {
-    align-self: stretch;
+    -ms-grid-row-align: stretch;
+        align-self: stretch;
   }
 
   .lg\:justify-start {
@@ -24348,6 +24467,14 @@ video {
 
   .lg\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .lg\:font-body {
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial;
+  }
+
+  .lg\:font-heading {
+    font-family: Abril Fatface, Cambria, Times New Roman, Times, serif;
   }
 
   .lg\:font-hairline {
@@ -30898,6 +31025,10 @@ video {
     border-width: 8px;
   }
 
+  .xl\:border-12 {
+    border-width: 12px;
+  }
+
   .xl\:border {
     border-width: 1px;
   }
@@ -30964,6 +31095,22 @@ video {
 
   .xl\:border-l-8 {
     border-left-width: 8px;
+  }
+
+  .xl\:border-t-12 {
+    border-top-width: 12px;
+  }
+
+  .xl\:border-r-12 {
+    border-right-width: 12px;
+  }
+
+  .xl\:border-b-12 {
+    border-bottom-width: 12px;
+  }
+
+  .xl\:border-l-12 {
+    border-left-width: 12px;
   }
 
   .xl\:border-t {
@@ -31095,7 +31242,8 @@ video {
   }
 
   .xl\:self-auto {
-    align-self: auto;
+    -ms-grid-row-align: auto;
+        align-self: auto;
   }
 
   .xl\:self-start {
@@ -31107,11 +31255,13 @@ video {
   }
 
   .xl\:self-center {
-    align-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
   }
 
   .xl\:self-stretch {
-    align-self: stretch;
+    -ms-grid-row-align: stretch;
+        align-self: stretch;
   }
 
   .xl\:justify-start {
@@ -31274,6 +31424,14 @@ video {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-body {
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial;
+  }
+
+  .xl\:font-heading {
+    font-family: Abril Fatface, Cambria, Times New Roman, Times, serif;
   }
 
   .xl\:font-hairline {
