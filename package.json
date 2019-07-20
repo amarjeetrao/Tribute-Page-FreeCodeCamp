@@ -4,6 +4,7 @@
   "description": "Freecodecamp responsive web design course porject one - Tribute Page",
   "main": "index.html",
   "scripts": {
+    "start":"python -m SimpleHTTPServer 8000",
     "build": "postcss src/css/tailwindcss.css --output src/css/style.css",
     "watch": "postcss src/css/tailwindcss.css --output src/css/style.css --watch"
   },

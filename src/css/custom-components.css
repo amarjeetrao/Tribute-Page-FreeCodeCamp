@@ -1,0 +1,34 @@
+.h1-heading {
+    @apply font-heading text-5xl text-center text-custom-gray;
+}
+
+.header {
+    @apply w-auto h-20 sticky z-10 bg-white border-0 border-b border-gray-400;
+}
+
+.katie-bouman-border {
+    @apply w-9/12 h-64 border-18 border-cyan-lite absolute;
+    top:40px;
+    left: 60px;
+}
+
+.katie-bouman {
+    @apply w-9/12 ml-8;
+}
+
+.text-section::before {
+    content: "❞";
+    @apply font-heading text-6xl;
+}
+
+.footer {
+    @apply w-auto h-20 bg-cyan-lite border-0 border-b border-gray-400;
+}
+
+.links {
+    @apply w-10/12 h-full mx-auto flex justify-between items-center;
+}
+
+.connections {
+    @apply w-32 flex justify-between;
+}
