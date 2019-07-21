@@ -1,28 +1,31 @@
-.h1-heading {
+.header {
+    @apply w-auto h-20 bg-white border-0 border-b border-gray-400 sticky top-0 z-10;
+}
+
+.heading {
     @apply font-heading text-5xl text-center text-custom-gray;
 }
 
-.header {
-    @apply w-auto h-20 sticky z-10 bg-white border-0 border-b border-gray-400;
+.image-box-border {
+    @apply w-10/12 h-64 border-18 border-cyan-lite absolute;
+    bottom: 2rem;
+    left: 3.5rem;
 }
 
-.katie-bouman-border {
-    @apply w-9/12 h-64 border-18 border-cyan-lite absolute;
-    top:40px;
-    left: 60px;
+.blockquote-1::before {
+    @apply text-12xl opacity-10 absolute;
+    content: "\275E";
+    bottom: -3rem;
 }
 
-.katie-bouman {
-    @apply w-9/12 ml-8;
-}
-
-.text-section::before {
-    content: "❞";
-    @apply font-heading text-6xl;
+.blockquote-2::before {
+    @apply font-heading text-8xl leading-none opacity-10 absolute;
+    content: "big day";
+    top: -3rem;
 }
 
 .footer {
-    @apply w-auto h-20 bg-cyan-lite border-0 border-b border-gray-400;
+    @apply w-auto h-20 bg-cyan-lite border-0 border-b border-gray-400 sticky bottom-0;
 }
 
 .links {
@@ -31,4 +34,13 @@
 
 .connections {
     @apply w-32 flex justify-between;
+}
+
+@screen sm {
+    .header {
+        @apply h-24;
+    }
+    .heading {
+        @apply text-8xl leading-none;
+    }
 }

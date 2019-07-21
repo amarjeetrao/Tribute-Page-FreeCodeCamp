@@ -633,44 +633,52 @@ video {
 /* custom components styles
    ========================================================================== */
 
-.h1-heading {
+.header {
+  width: auto;
+  height: 5rem;
+  background-color: #fff;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-color: #cbd5e0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.heading {
   font-family: Abril Fatface, Cambria, Times New Roman, Times, serif;
   font-size: 3rem;
   text-align: center;
   color: #686868;
 }
 
-.header {
-  width: auto;
-  height: 5rem;
-  position: -webkit-sticky;
-  position: sticky;
-  z-index: 10;
-  background-color: #fff;
-  border-width: 0;
-  border-bottom-width: 1px;
-  border-color: #cbd5e0;
-}
-
-.katie-bouman-border {
-  width: 75%;
+.image-box-border {
+  width: 83.333333%;
   height: 16rem;
   border-width: 18px;
   border-color: #00FFCC;
   position: absolute;
-  top:40px;
-  left: 60px;
+  bottom: 2rem;
+  left: 3.5rem;
 }
 
-.katie-bouman {
-  width: 75%;
-  margin-left: 2rem;
+.blockquote-1::before {
+  font-size: 10rem;
+  opacity: 0.1;
+  position: absolute;
+  content: "\275E";
+  bottom: -3rem;
 }
 
-.text-section::before {
-  content: "❞";
+.blockquote-2::before {
   font-family: Abril Fatface, Cambria, Times New Roman, Times, serif;
-  font-size: 4rem;
+  font-size: 6rem;
+  line-height: 1;
+  opacity: 0.1;
+  position: absolute;
+  content: "big day";
+  top: -3rem;
 }
 
 .footer {
@@ -680,6 +688,9 @@ video {
   border-width: 0;
   border-bottom-width: 1px;
   border-color: #cbd5e0;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
 }
 
 .links {
@@ -696,6 +707,17 @@ video {
   width: 8rem;
   display: flex;
   justify-content: space-between;
+}
+
+@media (min-width: 640px) {
+  .header {
+    height: 6rem;
+  }
+
+  .heading {
+    font-size: 6rem;
+    line-height: 1;
+  }
 }
 
 .appearance-none {
@@ -5323,6 +5345,10 @@ video {
   opacity: 0;
 }
 
+.opacity-10 {
+  opacity: 0.1;
+}
+
 .opacity-25 {
   opacity: 0.25;
 }
@@ -7390,6 +7416,30 @@ video {
 
 .text-6xl {
   font-size: 4rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
+}
+
+.text-10xl {
+  font-size: 8rem;
+}
+
+.text-12xl {
+  font-size: 10rem;
+}
+
+.text-14xl {
+  font-size: 12rem;
+}
+
+.text-15xl {
+  font-size: 14rem;
+}
+
+.text-16xl {
+  font-size: 16rem;
 }
 
 .italic {
@@ -12434,6 +12484,10 @@ video {
     opacity: 0;
   }
 
+  .sm\:opacity-10 {
+    opacity: 0.1;
+  }
+
   .sm\:opacity-25 {
     opacity: 0.25;
   }
@@ -14501,6 +14555,30 @@ video {
 
   .sm\:text-6xl {
     font-size: 4rem;
+  }
+
+  .sm\:text-8xl {
+    font-size: 6rem;
+  }
+
+  .sm\:text-10xl {
+    font-size: 8rem;
+  }
+
+  .sm\:text-12xl {
+    font-size: 10rem;
+  }
+
+  .sm\:text-14xl {
+    font-size: 12rem;
+  }
+
+  .sm\:text-15xl {
+    font-size: 14rem;
+  }
+
+  .sm\:text-16xl {
+    font-size: 16rem;
   }
 
   .sm\:italic {
@@ -19543,6 +19621,10 @@ video {
     opacity: 0;
   }
 
+  .md\:opacity-10 {
+    opacity: 0.1;
+  }
+
   .md\:opacity-25 {
     opacity: 0.25;
   }
@@ -21610,6 +21692,30 @@ video {
 
   .md\:text-6xl {
     font-size: 4rem;
+  }
+
+  .md\:text-8xl {
+    font-size: 6rem;
+  }
+
+  .md\:text-10xl {
+    font-size: 8rem;
+  }
+
+  .md\:text-12xl {
+    font-size: 10rem;
+  }
+
+  .md\:text-14xl {
+    font-size: 12rem;
+  }
+
+  .md\:text-15xl {
+    font-size: 14rem;
+  }
+
+  .md\:text-16xl {
+    font-size: 16rem;
   }
 
   .md\:italic {
@@ -26652,6 +26758,10 @@ video {
     opacity: 0;
   }
 
+  .lg\:opacity-10 {
+    opacity: 0.1;
+  }
+
   .lg\:opacity-25 {
     opacity: 0.25;
   }
@@ -28719,6 +28829,30 @@ video {
 
   .lg\:text-6xl {
     font-size: 4rem;
+  }
+
+  .lg\:text-8xl {
+    font-size: 6rem;
+  }
+
+  .lg\:text-10xl {
+    font-size: 8rem;
+  }
+
+  .lg\:text-12xl {
+    font-size: 10rem;
+  }
+
+  .lg\:text-14xl {
+    font-size: 12rem;
+  }
+
+  .lg\:text-15xl {
+    font-size: 14rem;
+  }
+
+  .lg\:text-16xl {
+    font-size: 16rem;
   }
 
   .lg\:italic {
@@ -33761,6 +33895,10 @@ video {
     opacity: 0;
   }
 
+  .xl\:opacity-10 {
+    opacity: 0.1;
+  }
+
   .xl\:opacity-25 {
     opacity: 0.25;
   }
@@ -35828,6 +35966,30 @@ video {
 
   .xl\:text-6xl {
     font-size: 4rem;
+  }
+
+  .xl\:text-8xl {
+    font-size: 6rem;
+  }
+
+  .xl\:text-10xl {
+    font-size: 8rem;
+  }
+
+  .xl\:text-12xl {
+    font-size: 10rem;
+  }
+
+  .xl\:text-14xl {
+    font-size: 12rem;
+  }
+
+  .xl\:text-15xl {
+    font-size: 14rem;
+  }
+
+  .xl\:text-16xl {
+    font-size: 16rem;
   }
 
   .xl\:italic {
