@@ -6,16 +6,28 @@
     @apply font-heading text-5xl text-center text-custom-gray;
 }
 
+.image-box {
+     @apply relative my-24;
+}
+
 .image-box-border {
     @apply w-10/12 h-64 border-18 border-cyan-lite absolute;
     bottom: 2rem;
-    left: 3.5rem;
+    right: 0;
+}
+
+.katie-bouman-image {
+    @apply w-11/12;
 }
 
 .blockquote-1::before {
     @apply text-12xl opacity-10 absolute;
     content: "\275E";
     bottom: -3rem;
+}
+
+.black-hole-image {
+
 }
 
 .blockquote-2::before {
@@ -36,11 +48,30 @@
     @apply w-32 flex justify-between;
 }
 
-@screen sm {
+@screen md {
+
     .header {
-        @apply h-24;
+        @apply h-32;
     }
     .heading {
         @apply text-8xl leading-none;
+    }
+    .image-box-border {
+        @apply w-84 h-72;
+        right:-1.5rem;
+    }
+    .katie-bouman-image,
+    .black-hole-image {
+        @apply w-auto ml-auto;
+    }
+    .blockquote-1,
+    .blockquote-2 {
+        @apply max-w-sm text-lg;
+    }
+    .footer {
+        @apply h-24;
+    }
+    .links {
+        @apply w-9/12;
     }
 }
