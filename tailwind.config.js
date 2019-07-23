@@ -8,6 +8,7 @@ module.exports = {
       fontSize: {
         '8xl': '6rem',
         '10xl': '8rem',
+        '11xl': '9rem',
         '12xl': '10rem',
         '14xl': '12rem',
         '15xl': '14rem',
@@ -35,7 +36,8 @@ module.exports = {
       },
       height: {
         '72': '18rem',
-        '84': '20rem'
+        '84': '20rem',
+        '90': '90%'
       }
     }
   },

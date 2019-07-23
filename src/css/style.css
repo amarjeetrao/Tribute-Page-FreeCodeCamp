@@ -716,6 +716,11 @@ video {
   align-items: center;
 }
 
+.source {
+  color: #fff;
+  font-weight: 700;
+}
+
 .connections {
   width: 8rem;
   display: flex;
@@ -735,7 +740,7 @@ video {
   .image-box-border {
     width: 20rem;
     height: 18rem;
-    right:-1.5rem;
+    right: -1.5rem;
   }
 
   .katie-bouman-image,
@@ -756,6 +761,56 @@ video {
 
   .links {
     width: 75%;
+  }
+
+  .source {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header {
+    width: 100%;
+    border-color: transparent;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    top: auto;
+  }
+
+  .heading {
+    font-size: 9rem;
+    color: #fff;
+    border-color: #cbd5e0;
+    text-shadow: -1px -1px 0 #000,
+         1px -1px 0 #000,
+         -1px 1px 0 #000,
+         1px 1px 0 #000;
+  }
+
+  .footer {
+    height: 100vh;
+    width: 6rem;
+    position: fixed;
+    right: 0;
+  }
+
+  .links {
+    width: auto;
+    height: 90%;
+    margin-top: 3rem;
+    flex-direction: column;
+  }
+
+  .source {
+    -webkit-writing-mode:vertical-rl;
+        -ms-writing-mode:tb-rl;
+            writing-mode:vertical-rl;
+  }
+
+  .connections {
+    height: 14rem;
+    flex-direction: column;
   }
 }
 
@@ -4044,6 +4099,10 @@ video {
 
 .h-84 {
   height: 20rem;
+}
+
+.h-90 {
+  height: 90%;
 }
 
 .h-auto {
@@ -7471,6 +7530,10 @@ video {
 
 .text-10xl {
   font-size: 8rem;
+}
+
+.text-11xl {
+  font-size: 9rem;
 }
 
 .text-12xl {
@@ -11201,6 +11264,10 @@ video {
     height: 20rem;
   }
 
+  .sm\:h-90 {
+    height: 90%;
+  }
+
   .sm\:h-auto {
     height: auto;
   }
@@ -14626,6 +14693,10 @@ video {
 
   .sm\:text-10xl {
     font-size: 8rem;
+  }
+
+  .sm\:text-11xl {
+    font-size: 9rem;
   }
 
   .sm\:text-12xl {
@@ -18354,6 +18425,10 @@ video {
     height: 20rem;
   }
 
+  .md\:h-90 {
+    height: 90%;
+  }
+
   .md\:h-auto {
     height: auto;
   }
@@ -21779,6 +21854,10 @@ video {
 
   .md\:text-10xl {
     font-size: 8rem;
+  }
+
+  .md\:text-11xl {
+    font-size: 9rem;
   }
 
   .md\:text-12xl {
@@ -25507,6 +25586,10 @@ video {
     height: 20rem;
   }
 
+  .lg\:h-90 {
+    height: 90%;
+  }
+
   .lg\:h-auto {
     height: auto;
   }
@@ -28932,6 +29015,10 @@ video {
 
   .lg\:text-10xl {
     font-size: 8rem;
+  }
+
+  .lg\:text-11xl {
+    font-size: 9rem;
   }
 
   .lg\:text-12xl {
@@ -32660,6 +32747,10 @@ video {
     height: 20rem;
   }
 
+  .xl\:h-90 {
+    height: 90%;
+  }
+
   .xl\:h-auto {
     height: auto;
   }
@@ -36085,6 +36176,10 @@ video {
 
   .xl\:text-10xl {
     font-size: 8rem;
+  }
+
+  .xl\:text-11xl {
+    font-size: 9rem;
   }
 
   .xl\:text-12xl {
