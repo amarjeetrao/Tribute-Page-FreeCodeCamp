@@ -105,6 +105,10 @@
          0.8px 0.8px 0 #686868;
     }
 
+    .image-box {
+        @apply -mb-8;
+    }
+
     .image-box-border {
         @apply w-98 h-98 right-0;
         bottom: -4rem;

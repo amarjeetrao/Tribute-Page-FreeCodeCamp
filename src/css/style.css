@@ -796,6 +796,10 @@ video {
          0.8px 0.8px 0 #686868;
   }
 
+  .image-box {
+    margin-bottom: -2rem;
+  }
+
   .image-box-border {
     width: 24rem;
     height: 24rem;
