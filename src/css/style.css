@@ -792,9 +792,9 @@ video {
     font-size: 10rem;
     color: #fff;
     text-shadow: -0.8px -0.8px 0 #686868,
-         0.8px -0.8px 0 #686868,
-         -0.8px 0.8px 0 #686868,
-         0.8px 0.8px 0 #686868;
+            0.8px -0.8px 0 #686868,
+            -0.8px 0.8px 0 #686868,
+            0.8px 0.8px 0 #686868;
   }
 
   .image-box {
@@ -854,9 +854,9 @@ video {
   }
 
   .source {
-    -webkit-writing-mode:vertical-rl;
-        -ms-writing-mode:tb-rl;
-            writing-mode:vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
   }
 
   .connections {
