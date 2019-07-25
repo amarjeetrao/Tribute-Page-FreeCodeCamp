@@ -672,6 +672,7 @@ video {
 
 .katie-bouman-image {
   width: 91.666667%;
+  max-width: 20rem;
 }
 
 .blockquote-1::before {

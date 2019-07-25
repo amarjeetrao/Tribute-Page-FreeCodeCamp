@@ -41,14 +41,17 @@
                 <line class="c fill-current text-transparent" style="stroke: #00ffb1" y1="137.287" transform="translate(70.5 839.5)" />
             </g>
         </svg>
-        <h1 class="heading">Katie Bouman</h1>
+        <h1 class="heading" id="title">Katie Bouman</h1>
     </header>
-    <main class="mx-8 md:mx-auto md:max-w-xl xl:max-w-5xl">
+    <main class="mx-8 md:mx-auto md:max-w-xl xl:max-w-5xl" id="main">
         <div class="image-box">
             <div class="image-box-border"></div>
-            <img class="katie-bouman-image" src="./src/assets/katie-image.png" alt="Katie Bouman Computer scientist">
+            <figure class="katie-bouman-image" id="img-div">
+                <img class="katie-image m-auto" id="image" src="./src/assets/katie-image.png" alt="Katie Bouman Computer scientist">
+                <figcaption class="h-0 opacity-0" id="img-caption">katie bouman CHIRP algorithm designer lead</figcaption>
+            </figure>
         </div>
-        <section class="mb-16 xl:mb-64">
+        <section class="mb-16 xl:mb-64" id="tribute-info">
             <p class="blockquote-1 relative">
                 Katherine Louise Bouman a
                 computer scientist who leads
@@ -77,7 +80,7 @@
         </div>
         <div class="footer">
             <div class="links">
-                <a href="https://en.wikipedia.org/wiki/Katie_Bouman" class="source">Wikipedia</a>
+                <a href="https://en.wikipedia.org/wiki/Katie_Bouman" target="_blank" class="source" id="tribute-link">Wikipedia</a>
                 <div class="connections md:w-auto">
                     <a href="https://www.behance.net/amarjeetrao" class="behance">
                         <svg class="fill-current text-white w-6 md:w-10 md:mx-2" xmlns="http://www.w3.org/2000/svg"
@@ -112,8 +115,8 @@
                 </div>
             </div>
         </div>
-
     </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
