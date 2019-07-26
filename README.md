@@ -10,7 +10,7 @@ Designed & Developed This Tribute Page under the requirement of FreeCodeCamp Res
 - Postcss
 - Aos.js animation library
 
-## [Live Webpage - Codepen](https://codepen.io/amarjeetrao/full/vPqqgQ)
+### [Live Webpage - Codepen](https://codepen.io/amarjeetrao/full/vPqqgQ)
 
 ## View webpage on your local machine
 This website uses some dependencies. You may have to downlaod [Node](https://nodejs.org/en/download/), [NPM](https://www.npmjs.com/get-npm) and [python](https://www.python.org/downloads/) first.
