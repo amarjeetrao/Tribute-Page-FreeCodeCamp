@@ -14,6 +14,7 @@ Designed & Developed This Tribute Page under the requirement of FreeCodeCamp Res
 
 ## View webpage on your local machine
 This website uses some dependencies. You may have to downlaod [Node](https://nodejs.org/en/download/), [NPM](https://www.npmjs.com/get-npm) and [python](https://www.python.org/downloads/) first.
+
 To run the website on your personal computer you can follow the steps below -
 
 1. clone the repository
