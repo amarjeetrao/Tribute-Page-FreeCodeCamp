@@ -6,49 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tribute Page - FreeCodeCamp</title>
-    <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 
 <body class="font-body font-medium bg-white text-custom-gray">
     <header class="header">
-        <svg class="hidden xl:block fixed py-4 ml-12" xmlns="http://www.w3.org/2000/svg" width="90" height="164.447"
-            viewBox="0 0 90 164.447">
-            <defs>
-                <style>
-                    .b {
-                        font-size: 30px;
-                        font-family: IkonoMiniL3-3, "Ikono Mini L 3";
-                    }
-
-                    .c {
-                        stroke-linecap: round;
-                        stroke-width: 3px;
-                    }
-
-                    .d {
-                        stroke: none;
-                    }
-                </style>
-            </defs>
-            <g transform="translate(-25.5 -838)">
-                <g class="a fill-current text-transparent" style="stroke: #00ffb1;stroke-width: 2px;"
-                    transform="translate(25.5 912.024)">
-                    <circle class="d" cx="45" cy="45" r="45" />
-                    <circle class="e fill-current text-transparent" cx="45" cy="45" r="44" />
-                </g><text class="b fill-current text-cyan-lite" style="stroke: #00ffb1"
-                    transform="translate(70.5 1000.447)">
-                    <tspan x="-15.555" y="0"></tspan>
-                </text>
-                <line class="c fill-current text-transparent" style="stroke: #00ffb1" y1="137.287"
-                    transform="translate(70.5 839.5)" />
-            </g>
-        </svg>
         <h1 class="heading" id="title">Katie Bouman</h1>
     </header>
     <main class="mx-8 md:mx-auto md:max-w-xl xl:max-w-5xl" id="main">
-        <div class="image-box">
+        <div class="image-box" data-aos="fade-up" data-aos-duration="600">
             <div class="image-box-border"></div>
             <figure class="katie-bouman-image" id="img-div">
                 <img class="katie-image m-auto" id="image" src="./src/assets/katie-image.png"
@@ -57,7 +26,7 @@
                 </figcaption>
             </figure>
         </div>
-        <section class="mb-16 xl:mb-64" id="tribute-info">
+        <section class="mb-16 xl:mb-64" id="tribute-info" data-aos="fade-up" data-aos-duration="600">
             <p class="blockquote-1 relative">
                 Katherine Louise Bouman a
                 computer scientist who leads
@@ -66,11 +35,11 @@
                 black hole image.
             </p>
         </section>
-        <div class="image-box">
+        <div class="image-box" data-aos="fade-up" data-aos-duration="600">
             <img class="black-hole-image" src="./src/assets/Black_hole.jpg"
                 alt="Supermassive black hole at the center of Messier87 galaxy">
         </div>
-        <section class="mb-16 xl:mb-64">
+        <section class="mb-16 xl:mb-64" data-aos="fade-up" data-aos-duration="600">
             <p class="blockquote-2 relative">
                 10th April 2019 - the first ever image
                 of a supermassive black hole at the
@@ -123,7 +92,10 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
