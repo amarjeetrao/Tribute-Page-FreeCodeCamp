@@ -13,7 +13,7 @@ Designed & Developed This Tribute Page under the requirement of FreeCodeCamp Res
 ### [Live Webpage - Codepen](https://codepen.io/amarjeetrao/full/vPqqgQ)
 
 ## View webpage on your local machine
-This website uses some dependencies. You may have to downlaod [Node](https://nodejs.org/en/download/), [NPM](https://www.npmjs.com/get-npm) and [python](https://www.python.org/downloads/) first.
+You may need to downlaod [Node](https://nodejs.org/en/download/), [NPM](https://www.npmjs.com/get-npm) and [python](https://www.python.org/downloads/) first.
 
 To run the website on your personal computer you can follow the steps below -
 
@@ -21,4 +21,4 @@ To run the website on your personal computer you can follow the steps below -
 2. go into project folder Tribute-Page-FreeCodeCamp
 3. run commond
   ``` npm install && npm start ```
-  
+4. Head to the browser and type [localhost:8000](localhost:8000) in URL address.
